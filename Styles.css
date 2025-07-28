@@ -1,0 +1,75 @@
+body {
+  background-image: url('background.png');
+  font-family: sans-serif;
+  padding: 20px
+}
+
+h1 {
+  font-size: 50px;
+  margin-top: 0;
+  margin-bottom: 5px;
+  font-weight: 2;
+  color: #574c3e;
+}
+
+.main {
+  background-color: beige;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 5px;
+}
+
+hr {
+  height: 0.05px;
+  background-color: black;
+  border-color: black;
+}
+
+h2 {
+  font-size: 30px;
+  font-weight: 2;
+  margin-top: 0;
+  margin-bottom: 15px;
+}
+
+h1, h2, p {
+  text-align: center;
+}
+
+h1, h2 {
+  font-family: "Optima", sans-serif;
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 150px;
+  height: 150px;
+}
+
+a {
+    font-family: "Optima", sans-serif;
+    text-decoration: none;
+    color: black;
+    font-size: 30px;
+}
+
+select {
+    font-family: "Optima", sans-serif;
+    text-align: left;
+    text-decoration: none;
+    color: black;
+    font-size: 30px;
+    border: beige;
+    background-color: beige;
+    width: 110px;
+}
+
+.option-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    width: 150x;
+    margin-top:30px;
+}
